@@ -201,7 +201,7 @@
     {
       "id": "mee2",
       "positionId": "pos3",
-      "companyId": "com1",
+      "companyId": "com6",
       "meetingCompany": "at",
       "meetingType": 5,
       "meetingDateTime": "Wed Oct 25 2023 10:00:00 GMT-0500 (Central Daylight Time)",
@@ -212,7 +212,7 @@
     {
       "id": "mee3",
       "positionId": "pos3",
-      "companyId": "com1",
+      "companyId": "com6",
       "meetingCompany": "at",
       "meetingType": 2,
       "meetingDateTime": "Tue Dec 12 2023 16:00:00 GMT-0500 (Central Daylight Time)",
