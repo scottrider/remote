@@ -224,6 +224,7 @@
   "prebuilt" : [
     {
       "collection": "companies",
+      "delimiter": ", ",
       "display": [ "name" ],
       "key" : "id",
       "title" : "At",
@@ -231,6 +232,7 @@
     },
     {
       "collection": "contacts",
+      "delimiter": ", ",      
       "display": [ "lname", "fname" ],
       "key" : "id",
       "title" : "At",
