@@ -228,6 +228,13 @@
       "key" : "id",
       "title" : "At",
       "type": "at"
-    }
+    },
+    {
+      "collection": "contacts",
+      "display": [ "lname", "fname" ],
+      "key" : "id",
+      "title" : "At",
+      "type": "atContact"
+    }    
   ]
 }
