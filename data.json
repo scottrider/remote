@@ -223,7 +223,7 @@
   ],
   "prebuilt" : [
     {
-      "collection": "company",
+      "collection": "companies",
       "display": [ "name" ],
       "key" : "id",
       "title" : "At",
