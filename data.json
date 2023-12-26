@@ -227,7 +227,7 @@
       "display": [ "name" ],
       "key" : "id",
       "title" : "At",
-      "type": "at",
+      "type": "at"
     }
   ]
 }
