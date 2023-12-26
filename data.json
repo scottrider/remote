@@ -226,7 +226,7 @@
       "collection": "company",
       "display": [ "name" ],
       "key" : "id",
-      "title" : "At"
+      "title" : "At",
       "type": "at",
     }
   ]
