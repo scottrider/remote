@@ -237,7 +237,15 @@
       "key" : "id",
       "title" : "At",
       "type": "atContact"
-    }    
+    },
+    {
+      "collection": "jobtype",
+      "delimiter": "",      
+      "display": [ "display" ],
+      "key" : "value",
+      "title" : "Job Type",
+      "type": "jobType"
+    }
   ],
   "collections" : [
     "jobtype": [
