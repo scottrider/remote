@@ -247,7 +247,7 @@
       "type": "jobType"
     }
   ],
-  "collections" : [
+  "collections" : {
     "jobtype": [
       {
         "value": 0,
@@ -288,5 +288,5 @@
         "display": "In Person"
       }
     ]
-  ]
+  }
 }
