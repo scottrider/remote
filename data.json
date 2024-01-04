@@ -101,7 +101,7 @@
       "cphone": "0123456789",
       "email": "name@email.com",
       "contact_type": 1,
-      "archived" : false
+      "archived": false
     },
     {
       "id": "con2",
@@ -112,7 +112,7 @@
       "cphone": "0123456789",
       "email": "name@email.com",
       "contact_type": 0,
-      "archived" : false
+      "archived": false
     },
     {
       "id": "con3",
@@ -123,7 +123,7 @@
       "cphone": "0123456789",
       "email": "name@email.com",
       "contact_type": 0,
-      "archived" : false
+      "archived": false
     },
     {
       "id": "con4",
@@ -134,7 +134,7 @@
       "cphone": "0123456789",
       "email": "name@email.com",
       "contact_type": 0,
-      "archived" : false
+      "archived": false
     },
     {
       "id": "con5",
@@ -145,7 +145,7 @@
       "cphone": "0123456789",
       "email": "name@email.com",
       "contact_type": 0,
-      "archived" : false
+      "archived": false
     }
   ],
   "positions": [
@@ -219,35 +219,42 @@
       "meetingLocation": "",
       "meetingDetails": "",
       "meetingAttendees": ""
-    }      
+    }
   ],
-  "prebuilt" : [
+  "prebuilt": [
     {
       "collection": "companies",
       "delimiter": ", ",
-      "display": [ "name" ],
-      "key" : "id",
-      "title" : "At",
+      "display": [
+        "name"
+      ],
+      "key": "id",
+      "title": "At",
       "type": "at"
     },
     {
       "collection": "contacts",
-      "delimiter": ", ",      
-      "display": [ "lname", "fname" ],
-      "key" : "id",
-      "title" : "At",
+      "delimiter": ", ",
+      "display": [
+        "lname",
+        "fname"
+      ],
+      "key": "id",
+      "title": "At",
       "type": "atContact"
     },
     {
       "collection": "jobtype",
-      "delimiter": "",      
-      "display": [ "display" ],
-      "key" : "value",
-      "title" : "Job Type",
+      "delimiter": "",
+      "display": [
+        "display"
+      ],
+      "key": "value",
+      "title": "Job Type",
       "type": "jobType"
     }
   ],
-  "collections" : {
+  "collections": {
     "jobtype": [
       {
         "value": 0,
