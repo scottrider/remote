@@ -1,3 +1,43 @@
 {
-  "collections": []
+  "collections": {
+    "jobtype": [
+      {
+        "value": 0,
+        "display": "Direct Hire"
+      },
+      {
+        "value": 1,
+        "display": "Contract"
+      },
+      {
+        "value": 2,
+        "display": "Contract to Hire"
+      },
+      {
+        "value": 3,
+        "display": "Temporary Gig W-2"
+      },
+      {
+        "value": 4,
+        "display": "Temporary Gig 1099"
+      }
+    ],
+    "meetingtype": [
+      {
+        "value": 0,
+        "display": "Email"
+      },
+      {
+        "value": 1,
+        "display": "Phone"
+      },
+      {
+        "value": 2,
+        "display": "Internet Meeting"
+      },
+      {
+        "value": 3,
+        "display": "In Person"
+      }
+    ]
 }
