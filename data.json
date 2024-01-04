@@ -261,6 +261,24 @@
         "value": 4,
         "display": "Temporary Gig 1099"
       }
+    ],
+    "meetingtype": [
+      {
+        "value": 0,
+        "display": "Email"
+      },
+      {
+        "value": 1,
+        "display": "Phone"
+      },
+      {
+        "value": 2,
+        "display": "Internet Meeting"
+      },
+      {
+        "value": 3,
+        "display": "In Person"
+      }
     ]
   ]
 }
