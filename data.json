@@ -238,5 +238,29 @@
       "title" : "At",
       "type": "atContact"
     }    
+  ],
+  "collections" : [
+    "jobtype": [
+      {
+        "value": 0,
+        "display": "Direct Hire"
+      },
+      {
+        "value": 1,
+        "display": "Contract"
+      },
+      {
+        "value": 2,
+        "display": "Contract to Hire"
+      },
+      {
+        "value": 3,
+        "display": "Temporary Gig W-2"
+      },
+      {
+        "value": 4,
+        "display": "Temporary Gig 1099"
+      }
+    ]
   ]
 }
