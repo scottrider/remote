@@ -1,6 +1,6 @@
 {
   "lists": [
-    {
+
       "jobtype": [
         {
           "value": 0,
@@ -41,7 +41,6 @@
           "display": "In Person"
         }
       ]
-    }
   ],
   "prebuilt": [
     {
