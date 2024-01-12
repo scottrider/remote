@@ -32,7 +32,7 @@
       "type": "jobType"
     }
   ],
-  "collections": {
+  "collections": [{
 "companies": [
     {
       "id": "com1",
@@ -296,4 +296,5 @@
       }
     ]
   }
+  ]
 }
