@@ -1,50 +1,48 @@
 {
-  "lists": [
-
-      "jobtype": [
-        {
-          "value": 0,
-          "display": "Direct Hire"
-        },
-        {
-          "value": 1,
-          "display": "Contract"
-        },
-        {
-          "value": 2,
-          "display": "Contract to Hire"
-        },
-        {
-          "value": 3,
-          "display": "Temporary Gig W-2"
-        },
-        {
-          "value": 4,
-          "display": "Temporary Gig 1099"
-        }
-      ],
-      "meetingtype": [
-        {
-          "value": 0,
-          "display": "Email"
-        },
-        {
-          "value": 1,
-          "display": "Phone"
-        },
-        {
-          "value": 2,
-          "display": "Internet Meeting"
-        },
-        {
-          "value": 3,
-          "display": "In Person"
-        }
-      ]
-  ],
-  "prebuilt": [
-    {
-      "collection": "companies",
+  "lists": {
+    "jobtype": [
+      {
+        "value": 0,
+        "display": "Direct Hire"
+      },
+      {
+        "value": 1,
+        "display": "Contract"
+      },
+      {
+        "value": 2,
+        "display": "Contract to Hire"
+      },
+      {
+        "value": 3,
+        "display": "Temporary Gig W-2"
+      },
+      {
+        "value": 4,
+        "display": "Temporary Gig 1099"
+      }
+    ],
+    "meetingtype": [
+      {
+        "value": 0,
+        "display": "Email"
+      },
+      {
+        "value": 1,
+        "display": "Phone"
+      },
+      {
+        "value": 2,
+        "display": "Internet Meeting"
+      },
+      {
+        "value": 3,
+        "display": "In Person"
+      }
+    ]
+  },
+  "prebuilt": {
+    "companies": {
       "delimiter": ", ",
       "display": [
         "name"
@@ -53,8 +51,7 @@
       "title": "At",
       "type": "at"
     },
-    {
-      "collection": "contacts",
+    "contacts": {
       "delimiter": ", ",
       "display": [
         "lname",
@@ -64,8 +61,7 @@
       "title": "At",
       "type": "atContact"
     },
-    {
-      "collection": "jobtype",
+    "jobtype": {
       "delimiter": "",
       "display": [
         "display"
@@ -74,231 +70,229 @@
       "title": "Job Type",
       "type": "jobType"
     }
-  ],
-  "sections": [
-    {
-      "companies": [
-        {
-          "id": "com1",
-          "order": 1,
-          "name": "ABC Corp",
-          "address1": "123 Main St",
-          "address2": "Suite 200",
-          "address3": "",
-          "city": "New York",
-          "state": "NY",
-          "zip": "10001",
-          "phone": "123-456-7890",
-          "email": "info@abccorp.com",
-          "website": "www.abccorp.com",
-          "archived": false
-        },
-        {
-          "id": "com2",
-          "order": 2,
-          "name": "DEF Inc",
-          "address1": "456 Elm St",
-          "address2": "Floor 5",
-          "address3": "",
-          "city": "Los Angeles",
-          "state": "CA",
-          "zip": "90001",
-          "phone": "987-654-3210",
-          "email": "info@definc.com",
-          "website": "www.definc.com",
-          "archived": false
-        },
-        {
-          "id": "com3",
-          "order": 3,
-          "name": "GHI Enterprises",
-          "address1": "789 Oak St",
-          "address2": "",
-          "address3": "",
-          "city": "Chicago",
-          "state": "IL",
-          "zip": "60601",
-          "phone": "111-222-3333",
-          "email": "info@ghienterprises.com",
-          "website": "www.ghienterprises.com",
-          "archived": false
-        },
-        {
-          "id": "com4",
-          "order": 4,
-          "name": "JKL Solutions",
-          "address1": "890 Maple Ave",
-          "address2": "Suite 1000",
-          "address3": "",
-          "city": "San Francisco",
-          "state": "CA",
-          "zip": "94101",
-          "phone": "555-123-4567",
-          "email": "info@jklsolutions.com",
-          "website": "www.jklsolutions.com",
-          "archived": false
-        },
-        {
-          "id": "com5",
-          "order": 5,
-          "name": "MNO Group",
-          "address1": "111 Pine St",
-          "address2": "Floor 8",
-          "address3": "",
-          "city": "Seattle",
-          "state": "WA",
-          "zip": "98101",
-          "phone": "777-888-9999",
-          "email": "info@mnogroup.com",
-          "website": "www.mnogroup.com",
-          "archived": false
-        },
-        {
-          "id": "com6",
-          "order": 6,
-          "name": "OPQ Inc",
-          "address1": "222 Cedar St",
-          "address2": "",
-          "address3": "",
-          "city": "Boston",
-          "state": "MA",
-          "zip": "02101",
-          "phone": "333-444-5555",
-          "email": "info@opqinc.com",
-          "website": "www.opqinc.com",
-          "archived": false
-        }
-      ],
-      "contacts": [
-        {
-          "id": "con1",
-          "order": 6,
-          "fname": "AdoptAPet",
-          "lname": "Last",
-          "ophone": "1234567890",
-          "cphone": "0123456789",
-          "email": "name@email.com",
-          "contact_type": 1,
-          "archived": false
-        },
-        {
-          "id": "con2",
-          "order": 2,
-          "fname": "Axolotl",
-          "lname": "Last",
-          "ophone": "1234567890",
-          "cphone": "0123456789",
-          "email": "name@email.com",
-          "contact_type": 0,
-          "archived": false
-        },
-        {
-          "id": "con3",
-          "order": 3,
-          "fname": "Cat Facts",
-          "lname": "Last",
-          "ophone": "1234567890",
-          "cphone": "0123456789",
-          "email": "name@email.com",
-          "contact_type": 0,
-          "archived": false
-        },
-        {
-          "id": "con4",
-          "order": 4,
-          "fname": "Cataas",
-          "lname": "Last",
-          "ophone": "1234567890",
-          "cphone": "0123456789",
-          "email": "name@email.com",
-          "contact_type": 0,
-          "archived": false
-        },
-        {
-          "id": "con5",
-          "order": 5,
-          "fname": "Cats",
-          "lname": "Last",
-          "ophone": "1234567890",
-          "cphone": "0123456789",
-          "email": "name@email.com",
-          "contact_type": 0,
-          "archived": false
-        }
-      ],
-      "positions": [
-        {
-          "id": "pos2",
-          "position": "Data Analyst",
-          "positionType": 2,
-          "through": "com3",
-          "throughContact": "con1",
-          "at": "com4",
-          "atContact": "con2",
-          "positionContactType": 2,
-          "positionStatus": 1,
-          "archived": false
-        },
-        {
-          "id": "pos3",
-          "position": "UX Designer",
-          "positionType": 1,
-          "through": "",
-          "throughContact": "",
-          "at": "com6",
-          "atContact": "con2",
-          "positionContactType": 4,
-          "positionStatus": 3,
-          "archived": false
-        },
-        {
-          "id": "pos4",
-          "position": "Product Manager",
-          "positionType": 4,
-          "through": "com7",
-          "throughContact": "con2",
-          "at": "com8",
-          "atContact": "con1",
-          "positionContactType": 1,
-          "positionStatus": 0,
-          "archived": true
-        }
-      ],
-      "meetings": [
-        {
-          "id": "mee1",
-          "positionId": "pos2",
-          "companyId": "com4",
-          "meetingCompany": "at",
-          "meetingType": 3,
-          "meetingDateTime": "Wed Oct 25 2023 16:30:00 GMT-0500 (Central Daylight Time)",
-          "meetingLocation": "",
-          "meetingDetails": "",
-          "meetingAttendees": ""
-        },
-        {
-          "id": "mee2",
-          "positionId": "pos3",
-          "companyId": "com6",
-          "meetingCompany": "at",
-          "meetingType": 5,
-          "meetingDateTime": "Wed Oct 25 2023 10:00:00 GMT-0500 (Central Daylight Time)",
-          "meetingLocation": "",
-          "meetingDetails": "",
-          "meetingAttendees": ""
-        },
-        {
-          "id": "mee3",
-          "positionId": "pos3",
-          "companyId": "com6",
-          "meetingCompany": "at",
-          "meetingType": 2,
-          "meetingDateTime": "Tue Dec 12 2023 16:00:00 GMT-0500 (Central Daylight Time)",
-          "meetingLocation": "",
-          "meetingDetails": "",
-          "meetingAttendees": ""
-        }
-      ]
-    }
-  ]
+  },
+  "sections": {
+    "companies": [
+      {
+        "id": "com1",
+        "order": 1,
+        "name": "ABC Corp",
+        "address1": "123 Main St",
+        "address2": "Suite 200",
+        "address3": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "phone": "123-456-7890",
+        "email": "info@abccorp.com",
+        "website": "www.abccorp.com",
+        "archived": false
+      },
+      {
+        "id": "com2",
+        "order": 2,
+        "name": "DEF Inc",
+        "address1": "456 Elm St",
+        "address2": "Floor 5",
+        "address3": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "phone": "987-654-3210",
+        "email": "info@definc.com",
+        "website": "www.definc.com",
+        "archived": false
+      },
+      {
+        "id": "com3",
+        "order": 3,
+        "name": "GHI Enterprises",
+        "address1": "789 Oak St",
+        "address2": "",
+        "address3": "",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "phone": "111-222-3333",
+        "email": "info@ghienterprises.com",
+        "website": "www.ghienterprises.com",
+        "archived": false
+      },
+      {
+        "id": "com4",
+        "order": 4,
+        "name": "JKL Solutions",
+        "address1": "890 Maple Ave",
+        "address2": "Suite 1000",
+        "address3": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94101",
+        "phone": "555-123-4567",
+        "email": "info@jklsolutions.com",
+        "website": "www.jklsolutions.com",
+        "archived": false
+      },
+      {
+        "id": "com5",
+        "order": 5,
+        "name": "MNO Group",
+        "address1": "111 Pine St",
+        "address2": "Floor 8",
+        "address3": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "phone": "777-888-9999",
+        "email": "info@mnogroup.com",
+        "website": "www.mnogroup.com",
+        "archived": false
+      },
+      {
+        "id": "com6",
+        "order": 6,
+        "name": "OPQ Inc",
+        "address1": "222 Cedar St",
+        "address2": "",
+        "address3": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101",
+        "phone": "333-444-5555",
+        "email": "info@opqinc.com",
+        "website": "www.opqinc.com",
+        "archived": false
+      }
+    ],
+    "contacts": [
+      {
+        "id": "con1",
+        "order": 6,
+        "fname": "AdoptAPet",
+        "lname": "Last",
+        "ophone": "1234567890",
+        "cphone": "0123456789",
+        "email": "name@email.com",
+        "contact_type": 1,
+        "archived": false
+      },
+      {
+        "id": "con2",
+        "order": 2,
+        "fname": "Axolotl",
+        "lname": "Last",
+        "ophone": "1234567890",
+        "cphone": "0123456789",
+        "email": "name@email.com",
+        "contact_type": 0,
+        "archived": false
+      },
+      {
+        "id": "con3",
+        "order": 3,
+        "fname": "Cat Facts",
+        "lname": "Last",
+        "ophone": "1234567890",
+        "cphone": "0123456789",
+        "email": "name@email.com",
+        "contact_type": 0,
+        "archived": false
+      },
+      {
+        "id": "con4",
+        "order": 4,
+        "fname": "Cataas",
+        "lname": "Last",
+        "ophone": "1234567890",
+        "cphone": "0123456789",
+        "email": "name@email.com",
+        "contact_type": 0,
+        "archived": false
+      },
+      {
+        "id": "con5",
+        "order": 5,
+        "fname": "Cats",
+        "lname": "Last",
+        "ophone": "1234567890",
+        "cphone": "0123456789",
+        "email": "name@email.com",
+        "contact_type": 0,
+        "archived": false
+      }
+    ],
+    "positions": [
+      {
+        "id": "pos2",
+        "position": "Data Analyst",
+        "positionType": 2,
+        "through": "com3",
+        "throughContact": "con1",
+        "at": "com4",
+        "atContact": "con2",
+        "positionContactType": 2,
+        "positionStatus": 1,
+        "archived": false
+      },
+      {
+        "id": "pos3",
+        "position": "UX Designer",
+        "positionType": 1,
+        "through": "",
+        "throughContact": "",
+        "at": "com6",
+        "atContact": "con2",
+        "positionContactType": 4,
+        "positionStatus": 3,
+        "archived": false
+      },
+      {
+        "id": "pos4",
+        "position": "Product Manager",
+        "positionType": 4,
+        "through": "com7",
+        "throughContact": "con2",
+        "at": "com8",
+        "atContact": "con1",
+        "positionContactType": 1,
+        "positionStatus": 0,
+        "archived": true
+      }
+    ],
+    "meetings": [
+      {
+        "id": "mee1",
+        "positionId": "pos2",
+        "companyId": "com4",
+        "meetingCompany": "at",
+        "meetingType": 3,
+        "meetingDateTime": "Wed Oct 25 2023 16:30:00 GMT-0500 (Central Daylight Time)",
+        "meetingLocation": "",
+        "meetingDetails": "",
+        "meetingAttendees": ""
+      },
+      {
+        "id": "mee2",
+        "positionId": "pos3",
+        "companyId": "com6",
+        "meetingCompany": "at",
+        "meetingType": 5,
+        "meetingDateTime": "Wed Oct 25 2023 10:00:00 GMT-0500 (Central Daylight Time)",
+        "meetingLocation": "",
+        "meetingDetails": "",
+        "meetingAttendees": ""
+      },
+      {
+        "id": "mee3",
+        "positionId": "pos3",
+        "companyId": "com6",
+        "meetingCompany": "at",
+        "meetingType": 2,
+        "meetingDateTime": "Tue Dec 12 2023 16:00:00 GMT-0500 (Central Daylight Time)",
+        "meetingLocation": "",
+        "meetingDetails": "",
+        "meetingAttendees": ""
+      }
+    ]
+  }
 }
