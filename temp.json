@@ -1,5 +1,5 @@
 {
-  "lists": [
+  "lists": {
     "jobtype": [
       {
         "value": 0,
@@ -40,8 +40,8 @@
         "display": "In Person"
       }
     ]
-  ],
-  "prebuilt": [
+  },
+  "prebuilt": {
     "companies": {
       "delimiter": ", ",
       "display": [
@@ -70,8 +70,8 @@
       "title": "Job Type",
       "type": "jobType"
     }
-  ],
-  "sections": [
+  },
+  "sections": {
     "companies": [
       {
         "id": "com1",
@@ -294,5 +294,5 @@
         "meetingAttendees": ""
       }
     ]
-  ]
+  }
 }
